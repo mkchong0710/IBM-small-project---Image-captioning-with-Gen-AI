@@ -21,7 +21,7 @@ embeddings = None
 def init_llm():
     global llm_hub, embeddings
     # Set up the environment variable for HuggingFace and initialize the desired model.
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "API"
 
     # repo name for the model
     model_id = "tiiuae/falcon-7b-instruct"
